@@ -1,9 +1,33 @@
 {
-  "name": "juuso_alerts",
-  "version": "0.0.1",
-  "description": "This package gives custom alerts",
-  "license": "MIT",
-  "devDependencies": {
-    "prettier": "^2.2.1"
-  }
+	"name": "juuso-cli-alerts",
+	"version": "0.0.1",
+	"description": "This package gives custom alerts",
+	"license": "MIT",
+	"repository": "jaakjuu1/juuso_alerts",
+	"author": {
+		"name": "Juuso Jaakkola",
+		"email": "juuso.jaakkola@gmail.com",
+		"url": "https://twitter.com/juusojaa"
+	},
+	"main": "index.js",
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"cli-alerts",
+		"Juuso Jaakkola",
+		"jaakjuu1",
+		"p3rs3us"
+	],
+	"devDependencies": {
+		"prettier": "^2.2.1"
+	},
+	"dependencies": {
+		"chalk": "^4.1.0",
+		"log-symbols": "^4.0.0"
+	},
+	"scripts": {
+		"test": "node test.js",
+		"format": "prettier --write \"./**/*.{js,json}\""
+	}
 }
