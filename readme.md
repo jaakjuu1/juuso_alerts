@@ -1,3 +1,4 @@
+![juuso-cli-alerts screenshot](./.github/juuso-cli-alerts.png)
 ## Install
 
 ```sh
