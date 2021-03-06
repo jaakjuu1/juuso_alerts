@@ -1,6 +1,6 @@
 {
 	"name": "juuso-cli-alerts",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "This package gives custom alerts",
 	"license": "MIT",
 	"repository": "jaakjuu1/juuso_alerts",
